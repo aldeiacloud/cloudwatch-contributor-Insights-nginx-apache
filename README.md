@@ -194,8 +194,8 @@ access_log /var/log/nginx/access.log cloudwatch;
 
 - ### A Configuração do Dashboard estará no vídeo deste repositório no Link de referência ao topo deste artigo.<p></b>
 
+<br>
 
----
 <b>Observações para as keys do Contributor:</b>
 + Você pode escolher ate 4 parametros para compor o contributor, você escolhe eles através dos parametros do log.
 + No apache se usa "remoteIP" para o ip do servidor remoto e no nginx "remote_addr"
@@ -204,3 +204,14 @@ access_log /var/log/nginx/access.log cloudwatch;
 + Não esqueça de colocar as políticas para que a instância consiga popular os Logs
 + Recomendo colocar uma retenção no grupo de logs criado
 + O nome do log que você colocar no Wizard, será o nome do LogGroup a ser criado no console AWS.
+---
+<br>
+<br>
+<br>
+<b>Artigos de referência para criação deste repositório:</b><p>
+Link: https://www.velebit.ai/blog/nginx-json-logging/<br>
+Por: Ivan Borko<p>
+Link: https://amalgjose.com/2022/03/26/how-to-configure-json-logs-in-nginx/<br>
+Por: Amal G Jose<p>
+Link: https://aws.amazon.com/pt/blogs/mt/use-amazon-cloudwatch-contributor-insights-for-general-analysis-of-nginx-logs/ <br>
+Por: Vivek Kumar, Matthew Barker, Sukhchander Khanna e Shaileen Savage
