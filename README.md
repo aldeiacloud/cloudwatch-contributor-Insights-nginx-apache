@@ -181,7 +181,7 @@ access_log /var/log/nginx/access.log;
 ```
 Alterar para:
 ```sh
-access_log /var/log/myformat-access.log cloudwatch;
+access_log /var/log/nginx/access.log cloudwatch;
 ```
 
 - Salve e reinicie o nginx.
