@@ -198,7 +198,7 @@ access_log /var/log/myformat-access.log cloudwatch;
 ---
 <b>Observações para as keys do Contributor:</b>
 + Você pode escolher ate 4 parametros para compor o contributor, você escolhe eles através dos parametros do log.
-+ No apache se usa "remoteIP" para o ip do servidor remoto e no nginx "remote_user"
++ No apache se usa "remoteIP" para o ip do servidor remoto e no nginx "remote_addr"
 
 <b>Observações para o Cloudwatch Agent:</b>
 + Não esqueça de colocar as políticas para que a instância consiga popular os Logs
