@@ -6,7 +6,7 @@ Link da configuração: https://www.youtube.com/aldeiacloud/
 
 ---
 <b>Passo 1:</b>
-- Configurar uma politica para Instancia EC2, conseguir criar/popular o log com o Agent do CloudWatch Logs, segue politica a ser atribuída a instância:
+- Configurar uma politica para Instancia EC2, para conseguir criar/popular o log com o Agent do CloudWatch Logs, segue politica a ser atribuída a instância:
 
 ```json
 {
