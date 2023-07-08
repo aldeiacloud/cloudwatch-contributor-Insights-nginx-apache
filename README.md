@@ -1,6 +1,6 @@
-# CloudWatch Contribuitor para NGINX e APACHE
+# CloudWatch Contributor para NGINX e APACHE
 
-#### Esta configuração permitirá coletar logs de acesso aos servidores web <b>nginx/apache</b> pelo CloudWatch, separando por ip de origem, codigo do status, agente usado para o acesso e data (podemos escolher 4 itens para compor o log dentro do Contribuitor).
+#### Esta configuração permitirá coletar logs de acesso aos servidores web <b>nginx/apache</b> pelo CloudWatch, separando por ip de origem, codigo do status, agente usado para o acesso e data (podemos escolher 4 itens para compor o log dentro do CloudWatch, usando o Contributor).
 <p>
 Link da configuração: https://www.youtube.com/aldeiacloud/
 
